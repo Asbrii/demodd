@@ -7,12 +7,23 @@
 </head>
 
 <body>
-    <div id="qq">
+    <!-- <div id="qq">
         <div id="qqq">
             khvdfhfgdhkfhk
         </div>
-    </div>
+    </div> -->
+    <video autoplay muted loop id="back" >
+        <source src="src/wave_-_12912 (540p).mp4">
+    </video>
     <style>
+        #back{
+            position: fixed;
+            top: 0;
+            right: 0;
+            min-width:100%;
+            min-height: 100%;
+        }
+       
         #qq{
             border: 2px solid black;
             height: 400px;
@@ -29,22 +40,21 @@
             background-color: rosybrown;
         }
         #ini{
-            border: 3px solid green;
+     
             width: fit-content;
             height: fit-content;
             position: relative;
         }
         #main{
-            border: 3px solid blue;
+         
             width: fit-content;
             height: fit-content;
             position: absolute;
             top: 150px;
             left: 20%;
+            
         }
-        /* .main1{
-            position: relative;
-        } */
+      
         #imm{
               position: absolute;
               top: 200px;
@@ -53,7 +63,7 @@
     </style>
     <h1> SAMPLE PURPOSE</h1>
     <div id="ini">
-        <video autoplay muted loop>
+        <video autoplay muted loop height="600px">
             <source src="src/network_-_12716 (720p).mp4">
         </video>
         <div id="main" class="main1">
