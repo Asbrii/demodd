@@ -7,19 +7,48 @@
 </head>
 
 <body>
+    <div id="qq">
+        <div id="qqq">
+            khvdfhfgdhkfhk
+        </div>
+    </div>
+    <style>
+        #qq{
+            border: 2px solid black;
+            height: 400px;
+            width:400px;
+        }
+        #qqq{
+            border: 3px solid blue;
+            height:150px ;
+            width: 150px;
+        }
+    </style>
     <style>
         body{
-            background-color: red;
+            background-color: rosybrown;
         }
         #ini{
             border: 3px solid green;
             width: fit-content;
             height: fit-content;
+            position: relative;
         }
         #main{
             border: 3px solid blue;
             width: fit-content;
             height: fit-content;
+            position: absolute;
+            top: 150px;
+            left: 20%;
+        }
+        /* .main1{
+            position: relative;
+        } */
+        #imm{
+              position: absolute;
+              top: 200px;
+              left: 40%;
         }
     </style>
     <h1> SAMPLE PURPOSE</h1>
@@ -27,12 +56,16 @@
         <video autoplay muted loop>
             <source src="src/network_-_12716 (720p).mp4">
         </video>
+        <div id="main" class="main1">
+            <video autoplay muted loop height="400px">
+                <source src="src/squares_-_1200 (720p).mp4">
+            </video>
+        </div>
+        <div id="imm">
+            <img src="src/21 Sinkfaucet Mini Table Mount.png" height="300px" alt="">
+        </div>
+    
     </div>
-    <div id="main">
-        <video autoplay muted loop height="500px">
-            <source src="src/squares_-_1200 (720p).mp4">
-        </video>
-    </div>
-
+   
 </body>
 </html>
